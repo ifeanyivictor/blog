@@ -1,0 +1,67 @@
+.adm-container{
+    margin-top: 2em;
+}
+.pyn-img-bx{
+    display: flex;
+    max-height: 3em;
+    max-width: 3em;
+}
+
+.pyn-img{
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+}
+
+.adm table{
+   
+    width: 100%;
+    border-collapse: collapse;
+}
+
+.adm table tbody tr:nth-of-type(odd) {
+    background-color: var(--eye);
+}
+
+.table td, .table th{
+    text-align: left;
+    border: 0.1rem solid var(--border); 
+    padding: 5px;
+}
+
+.pyn-delete{
+    padding: 10px;
+    background-color: var(--quadila-red);
+    color: var(--lite-green);
+    margin-left: 20px;
+    font-size: 18px;
+    cursor: pointer;
+}
+
+.pyn-update{
+    padding: 10px;
+    background-color: var(--green);
+    color: var(--lite-green);
+    font-size: 18px;
+    cursor: pointer;
+}
+
+.pyn-scroll{
+    max-height: 90vh;
+    overflow-y: auto;
+    margin-top: 3em;
+    padding: 0px 20px 0px;
+}
+
+.create-action{
+    padding: 10px;
+    background-color: var(--store-card-rating);
+    color: var(--lite-green);
+    font-size: 18px;
+    cursor: pointer;
+    margin-top: 20px;
+}
+
+.create-action:hover{
+    background-color: var(--primary-btn);
+}
